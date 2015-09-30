@@ -1,0 +1,508 @@
+*{
+    margin:0px;
+    padding:0px
+}
+.auto{
+    margin:0 auto
+}
+.display_none{
+	display:none;
+}
+a{
+    text-decoration:none;
+    cursor:pointer;
+}
+url{
+	list-style-type: none;
+}
+.star{
+  font-size:20px;
+  color:orange;
+}
+.sign_head_nav{
+    width:100%;
+    height:45px;
+    border:1px solid lightblue;
+}
+.sign_head_url{
+    list-style:none;
+}
+.sign_head_url li{
+    float:left;
+    width:100px;
+    height:100%;
+    text-align:center;
+    line-height:45px;
+}
+.sign_head_url li:first-child{
+    margin-right: 100px;
+}
+.sign_head_url li:last-child{
+    float:right;
+    margin-right: 40px;
+}
+.sign_head_url li:last-child div{
+    position:relative;
+    border:2px solid lightblue;
+    z-index: 999;
+    height: 100px;
+    display:none;
+    font-size: 30px;
+}
+#sign_mark_div div{
+    color:lightskyblue;
+    display:block;
+    float:left;
+    width:44px;
+    height:44px;
+    margin: 2px 2px 2px 2px;
+    line-height: 40px;
+    z-index: 200;
+}
+
+.sign_head_url li:first-child img{
+    width:40px;
+}
+.sign_in_form{
+    width:300px;
+    height:380px;
+}
+.sign_in_form div{
+    width:300px;
+    height:40px;
+    margin-top:20px;
+}
+.sign_in_form div:first-child{
+    margin-top: 40px;
+}
+.sign_in_form input{
+    height:40px;
+}
+.sign_protcol{
+    height:15px;
+}
+.span_sex{
+    display:inline-block;
+    float:left;
+    width:123px;
+    height:40px;
+    border:1px solid lightgrey;
+    cursor:pointer;
+}
+.span_sex img{
+    width:30px;
+    margin-top:3px;
+}
+.span_sex i{
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    color: green;
+    visibility:hidden;
+}
+.span_sex1{
+    border-right:0px solid #fff;
+}
+.span_sex2{
+    border-left:0px solid #fff;
+}
+.welcome{
+    position:absolute;
+    width:100%;
+    height:180px;
+    z-index:100;
+    opacity:0.7;
+    background:orange;
+    text-align: center;
+    border:3px solid orange;
+    display:none;
+}
+.welcome div:first-child{
+    width:100%;
+    height:60px;
+    font-size: 20px;
+    line-height:60px;
+}
+.wel_body{
+    width:100%;
+    height:90px;
+    font-size: 15px;
+}
+.welcome div:last-child{
+    width:100%;
+    height:30px;
+    font-size: 15px;
+    line-height:30px;
+    text-align: center;
+}
+#succ_name{
+    font-size: 20px;
+    color:#008000;
+}
+#succ_address{
+    font-size: 20px;
+    color:#b6483c;
+}
+.login_div{
+    width:300px;
+    height:140px;
+    margin-top: 20px;
+}
+.login_div div{
+    margin-top: 10px;
+}
+.login_div input{
+    height: 50px;
+}
+.sign_login_info{
+    color:red;
+}
+/*主页*/
+.sign_main_div{
+    height:1100px;
+    width:100%;
+    background-image:100%;
+}
+#sign_main_circle_div{
+    border:0px solid grey ;
+    height:250px;width:250px;
+    position:relative;
+    margin:0px auto;
+    background:#fff;
+    opacity: 0.8;
+}
+#sign_main_circle_div a{
+    position:absolute;
+    top:0px;
+    left:0px;
+    color:darkslategrey;
+    font-weight:bold;
+    padding:3px 6px;
+}
+#sign_main_circle_div a:hover{
+    border:1px solid #eee;
+    background:#000;
+    border-radius:5px;
+}
+.message_main{
+	border:1px solid grey;
+	width:100%;
+	height:450px;
+}
+.message_div{
+	border:1px solid grey;
+	width:50%;
+	height:450px;
+}
+.message_nav,.nav_style{
+	list-style-type: none;
+}
+.message_nav li,.nav_style li{
+	float: right;
+	margin-right:10px;
+	font-size: 18px;
+	color:#ccc;
+	cursor:pointer;
+}
+.message_tip{
+	border:1px solid grey;
+	width:100%;
+	height:40px;
+	line-height: 40px;
+}
+.message_body{
+	border:1px solid grey;
+	width:100%;
+	height:280px;
+}
+.message_style{
+	border:1px solid grey;
+	width:100%;
+	height:30px;
+	line-height: 30px;
+}
+.message_area{
+	width:100%;
+	height:99%;
+	font-weight:400;
+	font-size: 20px;
+}
+.message_tool{
+	background:#eee8e8;
+	border:1px solid black;
+	width:100%;
+	height:100px;
+}
+.zone_title{
+	border:1px solid #cbb3b3;
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+}
+.zone_main{
+	border:1px solid #cbb3b3;
+	width:100%;
+}
+.zone_l{
+	border-right:1px solid #cbb3b3;
+	width:30%;
+	height:100%;
+	float:left;
+}
+.zone_l_pic{
+	border-bottom:1px solid #bbb9f0;
+	width:100%;
+	height:200px;
+	line-height: 200px;
+	text-align: center;
+}
+.zone_l_red{
+	border-bottom:1px solid #bbb9f0;
+	width:100%;
+	height:400px;
+	text-align: center;
+}
+.zone_tag{
+	width:200px;
+	height:30px;
+	color:#54c9ec;
+	font-size: 30px;
+	text-align: right;
+	position: relative;
+    left: 90px;
+    top: -22px;
+}
+.zone_r{
+	border-left:1px solid #ccb3b3;
+	width:70%;
+	height:100%;
+	float:left;
+}
+.zone_r_title{
+	height:40px;
+	text-align: center;
+	line-height: 40px;
+}
+.zone_r_corll{
+	margin-top:10px;
+}
+.zone_r_t{
+	height:300px;
+}
+.panel-body{
+	background:#c1e7f7
+}
+.zone_star{
+	float: right;
+	margin-right: 10px;
+}
+.zone_r_b{
+	border-left:1px solid #ccb3b3;
+	width:100%;
+	position:relative;
+	top:50;
+}
+.zone_r_b_l{
+	border:1px solid #ccb3b3;
+	width:50%;
+	height:300px;
+	float:left;
+}
+.zone_r_b_r{
+	border:1px solid #ccb3b3;
+	width:50%;
+	height: 300px;
+	float:right;
+}
+.fr_tip{
+	font-weight:bold;
+	position: relative;
+    top: -24px;
+    color:#000000
+}
+#zone_icon{
+	cursor:pointer;
+}
+#zone_upload_form,#zone_iframe{
+	display:none;
+}
+
+/*discuss*/
+.discuss_main_div{
+	width:1000px;
+	height:1000px;
+	border:1px solid grey;
+}
+.color1{
+	color:rosybrown;
+}
+.discuss_title_div{
+	width:900px;
+	height:50px;
+	margin-top:20px;
+	margin-bottom:10px;
+	border:1px solid grey;
+}
+.discuss_mission_div{
+	width:900px;
+	height:40px;
+	border:1px solid grey;
+}
+.discuss_mission_div div{
+	width:30px;
+	height:30px;
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+	line-height: 30px;
+	text-align: center;
+	font-size:25px;
+	cursor:pointer;
+}
+.discuss_message_div{
+	width:900px;
+	height:300px;
+	border:1px solid grey
+}
+.discuss_message_div_l{
+	width:200px;
+	height:300px;
+	border:1px solid grey;
+	float:left;	
+}
+.discuss_message_div_r{
+	width:680px;
+	height:300px;
+	border:1px solid grey;
+	float:right;
+}
+.discuss_user_info_div_up{
+	width:160px;
+	height:160px;
+	border:1px solid grey;
+	margin-top:20px;
+}
+.discuss_user_info_div_bottom{
+	width:160px;
+	height:60px;
+	border:1px solid grey;
+	margin-top:20px;
+}
+.discuss_message_info_div_up{
+	width:660px;
+	height:230px;
+	border:1px solid grey;
+	margin-top:10px;
+}
+.discuss_message_info_div_bottom{
+	width:660px;
+	height:35px;
+	border:1px solid grey;
+	margin-top:10px;
+}
+.discuss_replay{
+	width:900px;
+	height:250px;
+	border:1px solid grey;
+	margin-left:-450px;
+	display:block;
+	position:fixed;
+	bottom:0px;
+	left:50%; /*边框先左移50%再距离边框-450px*/
+	z-index:1;
+	display:none;
+	background-color:#cdddeb;
+}
+.discuss_replay_title{
+	width:100%;
+	height:50px;
+	border:1px solid grey;
+	line-height:50px;
+}
+.discuss_aside_div{
+	width:40px;
+	height:120px;
+	position:fixed;
+	right:0;
+	top:50%;
+	text-align:center;
+}
+.discuss_aside_div div{
+	width:40px;
+	height:40px;
+	line-height: 30px;
+	text-align: center;
+	font-size:25px;
+	cursor:pointer;
+}
+.discuss_list_title{
+	width:1000px;
+	height:140px;
+	border:1px solid grey;
+}
+.discuss_list_tool{
+	width:1000px;
+	height:40px;
+	border:1px solid grey;
+	margin-top:10px;
+}
+.discuss_list_body{
+	margin-top:10px;
+	width:1000px;
+	height:800px;
+	border:1px solid grey;
+}
+.discuss_one_list{
+	width:960px;
+	height:60px;
+	border:1px solid grey;
+	margin-top:10px;
+	line-height:50px;
+}
+.discuss_one_list_up{
+	border:0px solid grey;
+	width:960px;
+	height:20px;
+	line-height:20px;
+	font-size:10px;
+	color:grey;
+}
+.discuss_one_list_down{
+	border:0px solid grey;
+	width:960px;
+	height:40px;
+	line-height:40px;
+	color:grey;
+	font-weight:bold;
+}
+.discuss_view{
+	display:inline-block;
+	margin-right:10px;
+	margin-left:10px;
+	color:green;
+}
+.discuss_create_time,.discuss_author{
+	display:inline-block;
+	margin-left:10px;
+}
+.discuss_author{
+	color:lightseagreen;
+	font-weight:bold;
+	cursor:pointer;
+}
+.discuss_new_publish{
+	width:1000px;
+	height:300px;
+	border:1px solid grey;
+	position:fixed;
+	z-index:1;
+	bottom:0;
+	left:50%;
+	margin-left:-500px;
+	background-color:white;
+	display:none;
+}
+
+
+
